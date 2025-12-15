@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Pinyon+Script&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-pinyon: "Pinyon Script", cursive;
+}
+
+:root {
+  background-color: #F0F0F0;
+}
