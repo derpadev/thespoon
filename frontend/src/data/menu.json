@@ -1,0 +1,7 @@
+[
+  { "name": "Chocolate Lava Cake", "price": "$8", "category": "Cake" },
+  { "name": "Strawberry Cheesecake", "price": "$7", "category": "Cake" },
+  { "name": "Macarons Box", "price": "$12", "category": "Pastry" },
+  { "name": "Vanilla Cupcake", "price": "$4", "category": "Cupcake" },
+  { "name": "Tiramisu", "price": "$9", "category": "Cake" }
+]
