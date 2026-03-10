@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Explora&display=swap");
 
 @plugin "tailwindcss-animate";
 @import "tailwindcss";
@@ -11,7 +11,7 @@
   --font-delius: "Delius Unicase", cursive;
   --font-pinyon: "Pinyon Script", cursive;
   --font-explora: "Explora Regular", serif;
-  --animate-fade-in-delay-1: fade-in 1.0s ease-out 0.2s forwards;
+  --animate-fade-in-delay-1: fade-in 1s ease-out 0.2s forwards;
   --animate-fade-in-delay-2: fade-in 3s ease-out 1.5s forwards;
   @keyframes fade-in {
     0% {
@@ -24,7 +24,7 @@
 }
 
 :root {
-  background-color: #CEC1A8;
+  background-color: #cec1a8;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -132,4 +132,14 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+}
+
+body,
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }

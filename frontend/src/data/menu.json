@@ -1,7 +1,324 @@
 [
-  { "name": "Chocolate Lava Cake", "price": "$8", "category": "Cake" },
-  { "name": "Strawberry Cheesecake", "price": "$7", "category": "Cake" },
-  { "name": "Macarons Box", "price": "$12", "category": "Pastry" },
-  { "name": "Vanilla Cupcake", "price": "$4", "category": "Cupcake" },
-  { "name": "Tiramisu", "price": "$9", "category": "Cake" }
+  {
+    "id": 1,
+    "name": "Mocha Cake",
+    "price": "$9",
+    "image": "/mocha_cake.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 2,
+    "name": "Raspberry Mousse Santa Hat",
+    "price": "$9",
+    "image": "/raspberry_mousse_santa_hat.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 3,
+    "name": "Cookie Butter Chestnut Mousse",
+    "price": "$9",
+    "image": "/cookie_butter_chestnut_mousse.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 4,
+    "name": "Matcha Strawberry Cheesecake",
+    "price": "$9",
+    "image": "/matcha_strawberry_cheesecake.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 5,
+    "name": "Flaming Cha Cha",
+    "price": "$9",
+    "image": "/flaming_cha_cha.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 6,
+    "name": "Nutella Bear",
+    "price": "$9",
+    "image": "/nutella_bear.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 7,
+    "name": "Apple White Chocolate Mousse",
+    "price": "$9",
+    "image": "/apple_white_chocolate_mousse.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 8,
+    "name": "Pumpkin Cheesecake Delight",
+    "price": "$9",
+    "image": "/pumpkin_cheesecake_delight.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 9,
+    "name": "Ube Cheesecake",
+    "price": "$39",
+    "image": "/ube_cheesecake.jpg",
+    "category": "Whole Cake"
+  },
+  {
+    "id": 10,
+    "name": "Lychee Pig",
+    "price": "$9",
+    "image": "/lychee_pig.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 11,
+    "name": "Yuzu Blueberry Mousse",
+    "price": "$45",
+    "image": "/yuzu_blueberry_mousse.jpg",
+    "category": "Whole Cake"
+  },
+  {
+    "id": 12,
+    "name": "Dragon Fruit Cheesecake Bear",
+    "price": "$9",
+    "image": "/dragon_fruit_cheesecake_bear.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 13,
+    "name": "Creme Brulee Matcha Latte",
+    "price": "$6.50",
+    "image": "/creme_brulee_matcha_latte.jpg",
+    "category": "Drink"
+  },
+  {
+    "id": 14,
+    "name": "Matcha Black Sesame Latte",
+    "price": "$6.50",
+    "image": "/black_sesame_matcha_latte.jpg",
+    "category": "Drink"
+  },
+  {
+    "id": 15,
+    "name": "Butterfly Calamansi",
+    "price": "$6.50",
+    "image": "/butterfly_calamansi.jpg",
+    "category": "Drink"
+  },
+  {
+    "id": 16,
+    "name": "Matcha Latte",
+    "price": "$6.50",
+    "image": "/matcha_latte.jpg",
+    "category": "Drink"
+  },
+  {
+    "id": 17,
+    "name": "Calamansi",
+    "price": "$6",
+    "image": "",
+    "category": "Drink"
+  },
+  {
+    "id": 18,
+    "name": "Cocopandan",
+    "price": "$8",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 19,
+    "name": "Ganache Dulce De Leche",
+    "price": "$8",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 20,
+    "name": "Durian Mousse",
+    "price": "$8",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 21,
+    "name": "Flower Pot",
+    "price": "$11",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 22,
+    "name": "Guava Cheesecake",
+    "price": "$7",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 23,
+    "name": "Passion Cherry Pineapple Cheesecake",
+    "price": "$8",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 24,
+    "name": "Yuzu Mango",
+    "price": "$7",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 25,
+    "name": "Pandan Coconut Ube Mousse",
+    "price": "$9",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 26,
+    "name": "Matcha Tiramisu",
+    "price": "$8",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 27,
+    "name": "Oreo Cheesecake",
+    "price": "$7",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 28,
+    "name": "Thai Tea Panna Cotta",
+    "price": "$7",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 29,
+    "name": "Strawberry Mousse",
+    "price": "$8",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 30,
+    "name": "Pistachio Strawberry",
+    "price": "$9",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 31,
+    "name": "Mango Passion",
+    "price": "$7",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 32,
+    "name": "Lemon Blueberry Cheesecake",
+    "price": "$7",
+    "image": "",
+    "category": "Dessert"
+  },
+  {
+    "id": 33,
+    "name": "Red Velvet",
+    "price": "$40",
+    "image": "",
+    "category": "Whole Cake"
+  },
+  {
+    "id": 34,
+    "name": "Small Lychee Mousse",
+    "price": "$35",
+    "image": "",
+    "category": "Whole Cake"
+  },
+  {
+    "id": 35,
+    "name": "Large Lychee Mousse",
+    "price": "$42",
+    "image": "",
+    "category": "Whole Cake"
+  },
+  {
+    "id": 36,
+    "name": "Chocolate Mousse Dulce",
+    "price": "$45",
+    "image": "",
+    "category": "Whole Cake"
+  },
+  {
+    "id": 37,
+    "name": "Mango Cheesecake",
+    "price": "$39",
+    "image": "",
+    "category": "Whole Cake"
+  },
+  {
+    "id": 38,
+    "name": "Heart Shape Cake",
+    "price": "$35",
+    "image": "",
+    "category": "Whole Cake"
+  },
+  {
+    "id": 39,
+    "name": "Guava Cheesecake Heart",
+    "price": "$35",
+    "image": "",
+    "category": "Whole Cake"
+  },
+  {
+    "id": 40,
+    "name": "Hexagon Shape Cake",
+    "price": "$50",
+    "image": "",
+    "category": "Whole Cake"
+  },
+  {
+    "id": 41,
+    "name": "Custom Order",
+    "price": "Contact Us",
+    "image": "",
+    "category": "Custom"
+  },
+  {
+    "id": 42,
+    "name": "Honey Passion Fruit Tea",
+    "price": "$5.25",
+    "image": "",
+    "category": "Drink"
+  },
+  {
+    "id": 43,
+    "name": "Beauty Tea",
+    "price": "$5",
+    "image": "",
+    "category": "Drink"
+  },
+  {
+    "id": 44,
+    "name": "Kumquat Ice Tea",
+    "price": "$5.25",
+    "image": "",
+    "category": "Drink"
+  },
+  {
+    "id": 45,
+    "name": "Hot Tea Pot",
+    "price": "$5",
+    "image": "",
+    "category": "Drink"
+  },
+  {
+    "id": 46,
+    "name": "Cafe Latte",
+    "price": "$5",
+    "image": "",
+    "category": "Drink"
+  }
 ]
