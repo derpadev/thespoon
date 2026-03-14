@@ -1,13 +1,19 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import desserts from "@/data/menu.json";
 import { motion } from "framer-motion";
+import { ArrowLeft } from "lucide-react";
 
-export default function Menu() {
+export default function MenuPage() {
   const [search, setSearch] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("All");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const categories = ["All", ...new Set(desserts.map((d) => d.category))];
 
@@ -17,23 +23,29 @@ export default function Menu() {
       .includes(search.toLowerCase());
     const matchesCategory =
       categoryFilter === "All" || dessert.category === categoryFilter;
-
     return matchesSearch && matchesCategory;
   });
 
   return (
-    <section id="menu" className="px-8 py-16 bg-pink-50">
-      <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen bg-pink-50 pt-24 pb-16">
+      <div className="max-w-6xl mx-auto px-8">
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-gray-500 hover:text-[#D4AF37] transition mb-8"
+        >
+          <ArrowLeft size={18} /> Back to Home
+        </Link>
+
+        <h2 className="text-gray-800 text-4xl font-bold mb-2">Full Menu</h2>
+        <p className="text-gray-500 mb-8">Browse everything we have to offer.</p>
+
         <div className="flex flex-col gap-4 mb-10">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <h3 className="text-gray-700 text-3xl font-bold">Our Menu</h3>
-            <Input
-              placeholder="Search items..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="max-w-sm"
-            />
-          </div>
+          <Input
+            placeholder="Search items..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="max-w-sm"
+          />
 
           <div className="flex flex-wrap gap-2">
             {categories.map((category) => (
@@ -78,7 +90,7 @@ export default function Menu() {
                   )}
                   <CardContent className="p-6">
                     <h4 className="text-xl text-gray-800 font-semibold mb-1">{dessert.name}</h4>
-                    <p className="text-gray-500 text-sm mb-3">{dessert.category}</p>
+                    <p className="text-gray-400 text-sm mb-3">{dessert.category}</p>
                     <span className="font-bold text-[#D4AF37] text-lg">{dessert.price}</span>
                   </CardContent>
                 </Card>
@@ -87,6 +99,6 @@ export default function Menu() {
           </div>
         )}
       </div>
-    </section>
+    </div>
   );
 }

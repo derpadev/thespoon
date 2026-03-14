@@ -8,7 +8,7 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="bg-black/80 text-white py-8">
+    <footer className="bg-[#FFF7E8] py-8">
       <div className="max-w-6xl mx-auto flex flex-col items-center gap-4">
         <div className="flex gap-5">
           {socials.map(({ icon: Icon, href, label }) => (
@@ -18,13 +18,13 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={label}
-              className="text-white/60 hover:text-[#D4AF37] transition"
+              className="text-gray-500 hover:text-[#D4AF37] transition"
             >
               <Icon size={20} />
             </a>
           ))}
         </div>
-        <p className="text-white/50 text-sm">
+        <p className="text-gray-400 text-sm">
           © {new Date().getFullYear()} The Spoon. All rights reserved.
         </p>
       </div>

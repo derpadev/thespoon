@@ -13,7 +13,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8">
         {/* Left side: Text and store info */}
         <div className="md:w-1/2 flex flex-col justify-center">
-          <h3 className="text-3xl font-bold mb-6">Get in Touch</h3>
+          <h3 className="text-gray-700 text-3xl font-bold mb-6">Get in Touch</h3>
           <p className="text-gray-600 mb-6">
             Have a special request or catering inquiry? We'd love to hear from
             you!
@@ -53,7 +53,7 @@ export default function Contact() {
             href="https://www.instagram.com/thespoondessert/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-2xl bg-[#D4AF37] text-black px-6 py-3 font-semibold hover:bg-[#bfa134] transition w-fit"
+            className="inline-flex items-center gap-2 rounded-2xl bg-[#D4AF37] text-gray-700 px-6 py-3 font-semibold hover:bg-[#bfa134] transition w-fit"
           >
             <Mail size={18} />
             Message Us on Instagram

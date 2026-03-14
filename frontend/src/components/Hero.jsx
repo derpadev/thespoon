@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 // Add your dessert images here (stored in public/images/)
-const slides = ["/hero5.jpg", "/mocha_cake.jpg", "/nutella_bear.jpg"];
+const slides = ["yuzu_blueberry_mousse.jpg", "/ube_cheesecake.jpg", "/mocha_cake.jpg"];
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
@@ -17,7 +17,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative h-[90vh] w-full overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden">
       {/* Slides */}
       <AnimatePresence>
         {slides.map((slide, index) =>
@@ -41,15 +41,17 @@ export default function Hero() {
 
       {/* Hero Text */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center text-white text-center px-6">
-        <h1 className="text-5xl md:text-6xl font-bold">
-          The Spoon Dessert Cafe
-        </h1>
-        <p className="mt-4 text-lg md:text-xl max-w-xl">
+        <img
+          src="/thespoon.png"
+          alt="The Spoon"
+          className="h-80 md:h-[28rem] w-auto object-contain mb-4"
+        />
+        <p className="text-lg md:text-xl max-w-xl">
           Contemporary desserts crafted in Stanton, California
         </p>
         <div className="mt-8 flex gap-4">
           <Button
-            className="bg-white text-black px-6 py-3 rounded-md font-semibold hover:bg-gray-200"
+            className="bg-[#FFF7E8] text-black px-6 py-3 rounded-md hover:bg-gray-200"
             onClick={() => {
               const element = document.getElementById("menu");
               const yOffset = -80; // adjust based on navbar height
@@ -63,7 +65,7 @@ export default function Hero() {
             View Menu
           </Button>
           <Button
-            className="bg-[#D4AF37] text-black font-bold px-6 py-3 rounded-md bg-[#D4AF37] hover:bg-[#bfa134]"
+            className="bg-[#D4AF37] text-black px-6 py-3 rounded-md bg-[#D4AF37] hover:bg-[#bfa134]"
             onClick={() => {
               const element = document.getElementById("contact");
               const yOffset = -80; // adjust based on navbar height

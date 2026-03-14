@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="px-8 py-24 bg-pink-50 overflow-hidden">
+    <section id="about" className="px-8 py-24 bg-green-100 overflow-hidden">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Image */}
         <motion.div
@@ -30,7 +30,7 @@ export default function About() {
           <p className="text-[#D4AF37] font-semibold tracking-widest uppercase text-sm mb-2">
             Our Story
           </p>
-          <h3 className="text-4xl font-bold mb-6">About Us</h3>
+          <h3 className="text-gray-700 text-4xl font-bold mb-6">About Us</h3>
           <p className="text-gray-600 text-lg leading-relaxed mb-4">
             Born in the heart of Stanton, California, The Spoon Dessert Cafe
             started with a simple idea — that every dessert should feel like a

@@ -11,6 +11,7 @@
   --font-delius: "Delius Unicase", cursive;
   --font-pinyon: "Pinyon Script", cursive;
   --font-explora: "Explora Regular", serif;
+  --font-playfair: "Playfair Display", serif;
   --animate-fade-in-delay-1: fade-in 1s ease-out 0.2s forwards;
   --animate-fade-in-delay-2: fade-in 3s ease-out 1.5s forwards;
   @keyframes fade-in {
