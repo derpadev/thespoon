@@ -8,7 +8,7 @@ const previewItems = desserts.filter((d) => d.image).slice(0, 6);
 
 export default function MenuPreview() {
   return (
-    <section id="menu" className="px-8 py-16 bg-pink-100">
+    <section id="menu" className="px-8 py-16 bg-[#FFF7E8]">
       <div className="max-w-6xl mx-auto">
         <p className="text-[#D4AF37] font-semibold tracking-widest uppercase text-sm text-center mb-2">
           What We Offer

@@ -27,7 +27,7 @@ export default function MenuPage() {
   });
 
   return (
-    <div className="min-h-screen bg-pink-50 pt-24 pb-16">
+    <div className="min-h-screen bg-[#FFF7E8] pt-24 pb-16">
       <div className="max-w-6xl mx-auto px-8">
         <Link
           to="/"

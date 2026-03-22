@@ -22,7 +22,7 @@ export default function Menu() {
   });
 
   return (
-    <section id="menu" className="px-8 py-16 bg-pink-50">
+    <section id="menu" className="px-8 py-16 bg-[#FFF7E8]">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col gap-4 mb-10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
