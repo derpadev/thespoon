@@ -44,7 +44,7 @@ export default function MenuPage() {
             placeholder="Search items..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="max-w-sm"
+            className="max-w-sm bg-white"
           />
 
           <div className="flex flex-wrap gap-2">
