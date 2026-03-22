@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="px-8 py-24 bg-green-100 overflow-hidden">
+    <section id="about" className="px-8 py-24 bg-[#FFF7E8] overflow-hidden">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Image */}
         <motion.div

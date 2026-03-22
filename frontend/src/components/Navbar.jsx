@@ -1,25 +1,47 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [showComingSoon, setShowComingSoon] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   const isHome = location.pathname === "/";
 
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const handleOrderClick = () => {
+    setMobileOpen(false);
+    setShowComingSoon(true);
+    setTimeout(() => setShowComingSoon(false), 3000);
+  };
 
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
+    return () => { document.body.style.overflow = ""; };
   }, [mobileOpen]);
+
+  const scrollToSection = (id) => {
+    setMobileOpen(false);
+    if (isHome) {
+      const el = document.getElementById(id);
+      if (el) {
+        const yOffset = -80;
+        const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+    } else {
+      navigate("/");
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) {
+          const yOffset = -80;
+          const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: "smooth" });
+        }
+      }, 100);
+    }
+  };
 
   return (
     <>
@@ -31,22 +53,13 @@ export default function Navbar() {
 
         {/* Desktop links */}
         <div className="space-x-6 hidden md:flex items-center">
-          <Link
-            to="/menu"
-            className="text-gray-700 hover:text-[#D4AF37] transition"
-          >
+          <Link to="/menu" className="text-gray-700 hover:text-[#D4AF37] transition">
             Menu
           </Link>
-          <button
-            onClick={() => scrollToSection("about")}
-            className="text-gray-700 hover:text-[#D4AF37] transition"
-          >
+          <button onClick={() => scrollToSection("about")} className="text-gray-700 hover:text-[#D4AF37] transition">
             About
           </button>
-          <button
-            onClick={() => scrollToSection("contact")}
-            className="text-gray-700 hover:text-[#D4AF37] transition"
-          >
+          <button onClick={() => scrollToSection("contact")} className="text-gray-700 hover:text-[#D4AF37] transition">
             Contact
           </button>
         </div>
@@ -54,7 +67,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <Button
             className="rounded-2xl bg-[#D4AF37] text-black hover:bg-[#bfa134] hidden md:inline-flex"
-            onClick={() => scrollToSection("contact")}
+            onClick={handleOrderClick}
           >
             Order Now
           </Button>
@@ -93,10 +106,18 @@ export default function Navbar() {
           </button>
           <Button
             className="rounded-2xl bg-[#D4AF37] text-black hover:bg-[#bfa134] text-lg px-8 py-3"
-            onClick={() => scrollToSection("contact")}
+            onClick={handleOrderClick}
           >
             Order Now
           </Button>
+        </div>
+      )}
+
+      {/* Coming Soon Toast */}
+      {showComingSoon && (
+        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 bg-gray-900 text-white px-6 py-3 rounded-2xl shadow-lg flex items-center gap-3 animate-fade-in">
+          <span className="text-[#D4AF37] font-bold text-lg">Coming Soon!</span>
+          <span className="text-gray-300 text-sm">Online ordering is on its way.</span>
         </div>
       )}
     </>
