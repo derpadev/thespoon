@@ -4,56 +4,56 @@
     "name": "Mocha Cake",
     "price": "$9",
     "image": "/mocha_cake.jpg",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 2,
     "name": "Raspberry Mousse Santa Hat",
     "price": "$9",
     "image": "/raspberry_mousse_santa_hat.jpg",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 3,
     "name": "Cookie Butter Chestnut Mousse",
     "price": "$9",
     "image": "/cookie_butter_chestnut_mousse.jpg",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 4,
     "name": "Matcha Strawberry Cheesecake",
     "price": "$9",
     "image": "/matcha_strawberry_cheesecake.jpg",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 5,
     "name": "Flaming Cha Cha",
     "price": "$9",
     "image": "/flaming_cha_cha.jpg",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 6,
     "name": "Nutella Bear",
     "price": "$9",
     "image": "/nutella_bear.jpg",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 7,
     "name": "Apple White Chocolate Mousse",
     "price": "$9",
     "image": "/apple_white_chocolate_mousse.jpg",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 8,
     "name": "Pumpkin Cheesecake Delight",
     "price": "$9",
     "image": "/pumpkin_cheesecake_delight.jpg",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 9,
@@ -67,7 +67,7 @@
     "name": "Lychee Pig",
     "price": "$9",
     "image": "/lychee_pig.jpg",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 11,
@@ -81,7 +81,7 @@
     "name": "Dragon Fruit Cheesecake Bear",
     "price": "$9",
     "image": "/dragon_fruit_cheesecake_bear.jpg",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 13,
@@ -123,112 +123,112 @@
     "name": "Cocopandan",
     "price": "$8",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 19,
     "name": "Ganache Dulce De Leche",
     "price": "$8",
-    "image": "",
-    "category": "Dessert"
+    "image": "/ganache_dulce_de_leche.jpg",
+    "category": "Small Dessert"
   },
   {
     "id": 20,
     "name": "Durian Mousse",
     "price": "$8",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 21,
     "name": "Flower Pot",
     "price": "$11",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 22,
     "name": "Guava Cheesecake",
     "price": "$7",
-    "image": "",
-    "category": "Dessert"
+    "image": "/guava_cheesecake.jpg",
+    "category": "Small Dessert"
   },
   {
     "id": 23,
     "name": "Passion Cherry Pineapple Cheesecake",
     "price": "$8",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 24,
     "name": "Yuzu Mango",
     "price": "$7",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 25,
     "name": "Pandan Coconut Ube Mousse",
     "price": "$9",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 26,
     "name": "Matcha Tiramisu",
     "price": "$8",
-    "image": "",
-    "category": "Dessert"
+    "image": "/matcha_tiramisu.jpg",
+    "category": "Small Dessert"
   },
   {
     "id": 27,
     "name": "Oreo Cheesecake",
     "price": "$7",
-    "image": "",
-    "category": "Dessert"
+    "image": "/oreo_cheesecake.jpg",
+    "category": "Small Dessert"
   },
   {
     "id": 28,
     "name": "Thai Tea Panna Cotta",
     "price": "$7",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 29,
     "name": "Strawberry Mousse",
     "price": "$8",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 30,
     "name": "Pistachio Strawberry",
     "price": "$9",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 31,
     "name": "Mango Passion",
     "price": "$7",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 32,
     "name": "Lemon Blueberry Cheesecake",
     "price": "$7",
     "image": "",
-    "category": "Dessert"
+    "category": "Small Dessert"
   },
   {
     "id": 33,
     "name": "Red Velvet",
-    "price": "$40",
+    "price": "$8",
     "image": "",
-    "category": "Whole Cake"
+    "category": "Small Dessert"
   },
   {
     "id": 34,
@@ -280,13 +280,6 @@
     "category": "Whole Cake"
   },
   {
-    "id": 41,
-    "name": "Custom Order",
-    "price": "Contact Us",
-    "image": "",
-    "category": "Custom"
-  },
-  {
     "id": 42,
     "name": "Honey Passion Fruit Tea",
     "price": "$5.25",
@@ -320,5 +313,19 @@
     "price": "$5",
     "image": "",
     "category": "Drink"
+  },
+  {
+    "id": 47,
+    "name": "Thai Tea Panna Cotta",
+    "price": "",
+    "image": "/thai_tea_panna_cotta.jpg",
+    "category": "Small Dessert"
+  },
+  {
+    "id": 48,
+    "name": "Mango Mousse Cake",
+    "price": "",
+    "image": "",
+    "category": "Small Dessert"
   }
 ]

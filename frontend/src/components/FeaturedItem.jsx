@@ -27,4 +27,4 @@ export default function FeaturedItem({ title, description, image, reverse = fals
       </div>
     </div>
   );
-}
+} 
