@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "Mocha Cake",
-    "price": "$9",
+    "price": "$50",
     "image": "/mocha_cake.jpg",
-    "category": "Dessert"
+    "category": "Whole Cake"
   },
   {
     "id": 2,
@@ -16,22 +16,15 @@
   {
     "id": 3,
     "name": "Cookie Butter Chestnut Mousse",
-    "price": "$9",
+    "price": "$45",
     "image": "/cookie_butter_chestnut_mousse.jpg",
     "category": "Dessert"
   },
   {
     "id": 4,
     "name": "Matcha Strawberry Cheesecake",
-    "price": "$9",
+    "price": "$45",
     "image": "/matcha_strawberry_cheesecake.jpg",
-    "category": "Dessert"
-  },
-  {
-    "id": 5,
-    "name": "Flaming Cha Cha",
-    "price": "$9",
-    "image": "/flaming_cha_cha.jpg",
     "category": "Dessert"
   },
   {
