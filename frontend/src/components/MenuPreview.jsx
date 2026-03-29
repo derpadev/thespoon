@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import desserts from "@/data/menu.json";
+import { getItemTypeLabel } from "@/lib/menuFilters";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
@@ -32,7 +33,9 @@ export default function MenuPreview() {
                 />
                 <CardContent className="p-6">
                   <h4 className="text-xl text-gray-800 font-semibold mb-1">{dessert.name}</h4>
-                  <p className="text-gray-400 text-sm mb-3">{dessert.category}</p>
+                  <p className="text-gray-400 text-sm mb-3">
+                    {getItemTypeLabel(dessert)}
+                  </p>
                   <span className="font-bold text-[#D4AF37] text-lg">{dessert.price}</span>
                 </CardContent>
               </Card>

@@ -4,26 +4,32 @@ import { Input } from "@/components/ui/input";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import desserts from "@/data/menu.json";
+import {
+  TOP_FILTERS,
+  getSubFiltersForTop,
+  itemMatchesFilters,
+  getItemTypeLabel,
+} from "@/lib/menuFilters";
 import { motion } from "framer-motion";
 import { ArrowLeft } from "lucide-react";
 
 export default function MenuPage() {
   const [search, setSearch] = useState("");
-  const [categoryFilter, setCategoryFilter] = useState("All");
+  const [topFilter, setTopFilter] = useState("All");
+  const [subFilter, setSubFilter] = useState("All");
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const categories = ["All", ...new Set(desserts.map((d) => d.category))];
+  const subFilters = getSubFiltersForTop(topFilter);
 
   const filteredDesserts = desserts.filter((dessert) => {
     const matchesSearch = dessert.name
       .toLowerCase()
       .includes(search.toLowerCase());
-    const matchesCategory =
-      categoryFilter === "All" || dessert.category === categoryFilter;
-    return matchesSearch && matchesCategory;
+    const matchesFilters = itemMatchesFilters(dessert, topFilter, subFilter);
+    return matchesSearch && matchesFilters;
   });
 
   return (
@@ -47,18 +53,38 @@ export default function MenuPage() {
             className="max-w-sm bg-white"
           />
 
-          <div className="flex flex-wrap gap-2">
-            {categories.map((category) => (
-              <Button
-                key={category}
-                size="sm"
-                variant={categoryFilter === category ? "default" : "outline"}
-                className="rounded-full"
-                onClick={() => setCategoryFilter(category)}
-              >
-                {category}
-              </Button>
-            ))}
+          <div className="space-y-3">
+            <div className="flex flex-wrap gap-2">
+              {TOP_FILTERS.map((label) => (
+                <Button
+                  key={label}
+                  size="sm"
+                  variant={topFilter === label ? "default" : "outline"}
+                  className="rounded-full"
+                  onClick={() => {
+                    setTopFilter(label);
+                    setSubFilter("All");
+                  }}
+                >
+                  {label}
+                </Button>
+              ))}
+            </div>
+            {subFilters.length > 0 && (
+              <div className="flex flex-wrap gap-2 pt-2 border-t border-gray-200/80">
+                {subFilters.map((label) => (
+                  <Button
+                    key={label}
+                    size="sm"
+                    variant={subFilter === label ? "default" : "outline"}
+                    className="rounded-full"
+                    onClick={() => setSubFilter(label)}
+                  >
+                    {label}
+                  </Button>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 
@@ -67,7 +93,11 @@ export default function MenuPage() {
             <p className="text-gray-400 text-lg">No items found.</p>
             <button
               className="mt-2 text-[#D4AF37] underline text-sm"
-              onClick={() => { setSearch(""); setCategoryFilter("All"); }}
+              onClick={() => {
+                setSearch("");
+                setTopFilter("All");
+                setSubFilter("All");
+              }}
             >
               Clear filters
             </button>
@@ -90,7 +120,9 @@ export default function MenuPage() {
                   )}
                   <CardContent className="p-6">
                     <h4 className="text-xl text-gray-800 font-semibold mb-1">{dessert.name}</h4>
-                    <p className="text-gray-400 text-sm mb-3">{dessert.category}</p>
+                    <p className="text-gray-400 text-sm mb-3">
+                      {getItemTypeLabel(dessert)}
+                    </p>
                     <span className="font-bold text-[#D4AF37] text-lg">{dessert.price}</span>
                   </CardContent>
                 </Card>
