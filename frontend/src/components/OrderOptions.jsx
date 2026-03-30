@@ -1,25 +1,25 @@
 import { motion } from "framer-motion";
-import { MapPin, ShoppingBag, PartyPopper } from "lucide-react";
+import { MapPin, Phone, PartyPopper } from "lucide-react";
 
 const options = [
   {
     icon: MapPin,
     title: "In-Store",
-    description: "Walk in and explore our full menu. Enjoy your dessert fresh at our Stanton cafe.",
+    description: "Walk in and explore our full menu. Enjoy your dessert fresh at our Stanton cafe!",
     cta: "Get Directions",
     href: "https://www.google.com/maps/place/The+Spoon/@33.7971664,-117.9947788,17z",
   },
   {
-    icon: ShoppingBag,
-    title: "Online",
-    description: "Browse, customize, and order ahead for pickup — skip the wait.",
-    cta: "Order Now",
+    icon: Phone,
+    title: "Call Ahead",
+    description: "Browse our online menu. Call ahead to reserve your order and pickup your dessert!",
+    cta: "Browse Menu",
     href: "#menu",
   },
   {
     icon: PartyPopper,
     title: "Catering & Events",
-    description: "Hosting a party or special occasion? Let us create a custom dessert spread for you.",
+    description: "Hosting a party or special occasion? Let us create a custom message on your dessert!",
     cta: "Contact Us",
     href: "#contact",
   },

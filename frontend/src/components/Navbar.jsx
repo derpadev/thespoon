@@ -5,16 +5,9 @@ import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [showComingSoon, setShowComingSoon] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const isHome = location.pathname === "/";
-
-  const handleOrderClick = () => {
-    setMobileOpen(false);
-    setShowComingSoon(true);
-    setTimeout(() => setShowComingSoon(false), 3000);
-  };
 
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
@@ -67,7 +60,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <Button
             className="rounded-2xl bg-[#D4AF37] text-black hover:bg-[#bfa134] hidden md:inline-flex"
-            onClick={handleOrderClick}
+            onClick={() => scrollToSection("order")}
           >
             Order Now
           </Button>
@@ -106,18 +99,10 @@ export default function Navbar() {
           </button>
           <Button
             className="rounded-2xl bg-[#D4AF37] text-black hover:bg-[#bfa134] text-lg px-8 py-3"
-            onClick={handleOrderClick}
+            onClick={() => scrollToSection("order")}
           >
             Order Now
           </Button>
-        </div>
-      )}
-
-      {/* Coming Soon Toast */}
-      {showComingSoon && (
-        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 bg-gray-900 text-white px-6 py-3 rounded-2xl shadow-lg flex items-center gap-3 animate-fade-in">
-          <span className="text-[#D4AF37] font-bold text-lg">Coming Soon!</span>
-          <span className="text-gray-300 text-sm">Online ordering is on its way.</span>
         </div>
       )}
     </>

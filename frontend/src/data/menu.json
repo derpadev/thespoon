@@ -46,12 +46,12 @@
 
   {"id":41,"name":"Honey Passion Fruit Tea","price":"$5.25","image":"","categories":["Hot Tea"]},
   {"id":42,"name":"Beauty Tea","price":"$4","image":"","categories":["Hot Tea"]},
-  {"id":43,"name":"Kumquat Ice Tea","price":"$5.25","image":"","categories":["Iced Tea"]},
+  {"id":43,"name":"Kumquat Ice Tea","price":"$5.25","image":"/kumquat_iced_tea.jpg","categories":["Iced Tea"]},
   {"id":44,"name":"Hot Tea Pot","price":"$5","image":"","categories":["Hot Tea"]},
   {"id":45,"name":"Cafe Latte","price":"$5","image":"","categories":["Coffee","Specialty Drinks"]},
 
-  {"id":46,"name":"Ube Latte","price":"$6","image":"","categories":["Specialty Drinks"]},
-  {"id":47,"name":"Ube Cafe Latte","price":"$6.50","image":"","categories":["Specialty Drinks"]},
+  {"id":46,"name":"Ube Latte","price":"$6","image":"/ube_latte.jpg","categories":["Specialty Drinks"]},
+  {"id":47,"name":"Ube Cafe Latte","price":"$6.50","image":"","categories":["Specialty Drinks", "Coffee"]},
   {"id":48,"name":"Matcha Cafe Latte","price":"$6.50","image":"","categories":["Coffee","Specialty Drinks"]},
   {"id":49,"name":"Creme Brulee Coffee","price":"$6.50","image":"","categories":["Coffee","Specialty Drinks"]},
   {"id":50,"name":"Creme Brulee Black Sesame Latte","price":"$6","image":"","categories":["Specialty Drinks"]},
