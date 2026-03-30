@@ -47,7 +47,7 @@ export default function Hero() {
           className="h-80 md:h-[28rem] w-auto object-contain mb-4"
         />
         <p className="text-lg md:text-xl max-w-xl">
-          Contemporary desserts crafted in Stanton, California
+          Contemporary desserts crafted in Stanton, California 
         </p>
         <div className="mt-8 flex gap-4">
           <Button

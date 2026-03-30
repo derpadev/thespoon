@@ -5,7 +5,10 @@ import { getItemTypeLabel } from "@/lib/menuFilters";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
-const previewItems = desserts.filter((d) => d.image).slice(0, 6);
+// top row indices: 1, 2, 3
+// bottom row indices: 4, 5,  6
+const selectedIds = [5, 12, 8, 6, 14, 10,]
+const previewItems = selectedIds.map((id) => desserts.find((d) => d.id === id));
 
 export default function MenuPreview() {
   return (
