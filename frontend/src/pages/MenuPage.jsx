@@ -43,7 +43,7 @@ export default function MenuPage() {
         </Link>
 
         <h2 className="text-gray-800 text-4xl font-bold mb-2">Full Menu</h2>
-        <p className="text-gray-500 mb-8">Browse everything we have to offer.</p>
+        <p className="text-gray-500 mb-8">Browse everything we have to offer. <br /> NOTE: Some items may be seasonal or limited availability. <br /> Please call ahead to check availability.</p>
 
         <div className="flex flex-col gap-4 mb-10">
           <Input
