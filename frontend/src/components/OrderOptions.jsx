@@ -36,7 +36,7 @@ const cardVariants = {
 
 export default function OrderOptions() {
   return (
-    <section id="order" className="px-8 py-24 bg-white">
+    <section id="order" className="px-8 py-24 bg-[#FFF7E8]">
       <div className="max-w-6xl mx-auto">
         <p className="text-[#D4AF37] font-semibold tracking-widest uppercase text-sm text-center mb-2">
           How to Order

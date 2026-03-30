@@ -12,7 +12,7 @@ const previewItems = selectedIds.map((id) => desserts.find((d) => d.id === id));
 
 export default function MenuPreview() {
   return (
-    <section id="menu" className="px-8 py-16 bg-[#FFF7E8]">
+    <section id="menu" className="px-8 py-16 bg-white">
       <div className="max-w-6xl mx-auto">
         <p className="text-[#D4AF37] font-semibold tracking-widest uppercase text-sm text-center mb-2">
           What We Offer

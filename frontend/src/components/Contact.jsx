@@ -9,7 +9,7 @@ const socials = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="px-8 py-16 bg-white">
+    <section id="contact" className="px-8 py-16 bg-[#FFF7E8]">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8">
         {/* Left side: Text and store info */}
         <div className="md:w-1/2 flex flex-col justify-center">
