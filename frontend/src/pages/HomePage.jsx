@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import Featured from "@/components/Featured";
+// import Featured from "@/components/Featured";
 import MenuPreview from "@/components/MenuPreview";
 import InstagramVideos from "@/components/InstagramVideos";
 import OrderOptions from "@/components/OrderOptions";
@@ -10,9 +10,9 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <Featured />
-      <InstagramVideos />
+      {/* <Featured /> */}
       <MenuPreview />
+      <InstagramVideos />
       <OrderOptions />
       <About />
       <Contact />

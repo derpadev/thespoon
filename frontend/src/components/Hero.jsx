@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 
 // Add your dessert images here (stored in public/)
 const slides = [
-  "/mothersday.png",
   "/yuzu_blueberry_mousse.jpg",
   "/ube_cheesecake.jpg",
   "/mocha_cake.jpg",
