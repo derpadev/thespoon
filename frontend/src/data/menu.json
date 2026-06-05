@@ -92,7 +92,7 @@
   {
     "id": 10,
     "name": "Matcha Tiramisu",
-    "price": "$8",
+    "price": "$7",
     "image": "./matcha_tiramisu2.jpg",
     "categories": [
       "Dessert"
