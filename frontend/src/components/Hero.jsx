@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
@@ -74,18 +75,10 @@ export default function Hero() {
             </p>
             <div className="mt-8 flex gap-4">
               <Button
+                asChild
                 className="bg-[#FFF7E8] text-black px-6 py-3 rounded-md hover:bg-gray-200"
-                onClick={() => {
-                  const element = document.getElementById("menu");
-                  const yOffset = -80; // adjust based on navbar height
-                  const y =
-                    element.getBoundingClientRect().top +
-                    window.pageYOffset +
-                    yOffset;
-                  window.scrollTo({ top: y, behavior: "smooth" });
-                }}
               >
-                View Menu
+                <Link to="/menu">View Menu</Link>
               </Button>
               <Button
                 className="bg-[#D4AF37] text-black px-6 py-3 rounded-md bg-[#D4AF37] hover:bg-[#bfa134]"
