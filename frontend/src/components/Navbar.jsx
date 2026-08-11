@@ -3,6 +3,11 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
+const menuCtaClassName =
+  "rounded-2xl bg-[#D4AF37] text-gray-900 font-bold text-base px-6 py-2.5 shadow-md " +
+  "hover:bg-[#c9a227] hover:shadow-lg hover:-translate-y-0.5 hover:scale-[1.03] " +
+  "transition-all duration-200 ease-out";
+
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const location = useLocation();
@@ -46,9 +51,9 @@ export default function Navbar() {
 
         {/* Desktop links */}
         <div className="space-x-6 hidden md:flex items-center">
-          <Link to="/menu" className="text-gray-700 hover:text-[#D4AF37] transition">
-            Menu
-          </Link>
+          <button onClick={() => scrollToSection("order")} className="text-gray-700 hover:text-[#D4AF37] transition">
+            Order Now
+          </button>
           <button onClick={() => scrollToSection("about")} className="text-gray-700 hover:text-[#D4AF37] transition">
             About
           </button>
@@ -58,11 +63,8 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <Button
-            className="rounded-2xl bg-[#D4AF37] text-black hover:bg-[#bfa134] hidden md:inline-flex"
-            onClick={() => scrollToSection("order")}
-          >
-            Order Now
+          <Button asChild className={`${menuCtaClassName} hidden md:inline-flex animate-[fade-in_0.6s_ease-out]`}>
+            <Link to="/menu">Menu</Link>
           </Button>
 
           <button
@@ -78,13 +80,12 @@ export default function Navbar() {
       {/* Mobile drawer */}
       {mobileOpen && (
         <div className="fixed inset-0 z-20 bg-black/90 flex flex-col items-center justify-center gap-8 md:hidden">
-          <Link
-            to="/menu"
+          <button
             className="text-white text-2xl font-semibold hover:text-[#D4AF37] transition"
-            onClick={() => setMobileOpen(false)}
+            onClick={() => scrollToSection("order")}
           >
-            Menu
-          </Link>
+            Order Now
+          </button>
           <button
             className="text-white text-2xl font-semibold hover:text-[#D4AF37] transition"
             onClick={() => scrollToSection("about")}
@@ -97,11 +98,8 @@ export default function Navbar() {
           >
             Contact
           </button>
-          <Button
-            className="rounded-2xl bg-[#D4AF37] text-black hover:bg-[#bfa134] text-lg px-8 py-3"
-            onClick={() => scrollToSection("order")}
-          >
-            Order Now
+          <Button asChild className={`${menuCtaClassName} text-lg px-8 py-3`}>
+            <Link to="/menu" onClick={() => setMobileOpen(false)}>Menu</Link>
           </Button>
         </div>
       )}

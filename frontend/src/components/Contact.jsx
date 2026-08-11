@@ -28,7 +28,7 @@ export default function Contact() {
               <Phone size={18} /> (714) 622-4842
             </a>
             <p className="text-gray-700 text-lg">
-              ⏰ Mon-Thur: 11am - 9pm | Fri-Sun: 10am - 10pm
+              ⏰ Sun-Thu: 11am - 9pm | Fri-Sat: 11am - 10pm
             </p>
           </div>
 
