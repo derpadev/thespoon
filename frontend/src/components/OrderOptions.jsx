@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, PartyPopper } from "lucide-react";
+import { MapPin, Phone, Bike } from "lucide-react";
 
 const options = [
   {
@@ -17,11 +17,15 @@ const options = [
     href: "#menu",
   },
   {
-    icon: PartyPopper,
-    title: "Catering & Events",
-    description: "Hosting a party or special occasion? Let us create a custom message on your dessert!",
-    cta: "Contact Us",
-    href: "#contact",
+    icon: Bike,
+    title: "Online Ordering",
+    description:
+      "Order for delivery through DoorDash, Uber Eats, and Grubhub — desserts and drinks brought to your door.",
+    links: [
+      { label: "DoorDash", href: "https://www.doordash.com/store/the-spoon-11382-beach-blvd-stanton-45717673/113887381/" },
+      { label: "Uber Eats", href: "https://www.ubereats.com/store/the-spoon/HO224N4FRoiZf6vZ9fT2AQ" },
+      { label: "Grubhub", href: "https://www.grubhub.com/restaurant/the-spoon-11382-beach-blvd-4-stanton/14848768" },
+    ],
   },
 ];
 
@@ -62,14 +66,30 @@ export default function OrderOptions() {
               </div>
               <h4 className="text-gray-800 text-xl font-bold mb-3">{option.title}</h4>
               <p className="text-gray-500 leading-relaxed mb-6 flex-1">{option.description}</p>
-              <a
-                href={option.href}
-                target={option.href.startsWith("http") ? "_blank" : undefined}
-                rel={option.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="inline-flex items-center gap-1 text-[#D4AF37] font-semibold hover:underline transition"
-              >
-                {option.cta} &rarr;
-              </a>
+              {option.links ? (
+                <div className="flex flex-col gap-2">
+                  {option.links.map((link) => (
+                    <a
+                      key={link.label}
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-1 text-[#D4AF37] font-semibold hover:underline transition"
+                    >
+                      {link.label} &rarr;
+                    </a>
+                  ))}
+                </div>
+              ) : (
+                <a
+                  href={option.href}
+                  target={option.href.startsWith("http") ? "_blank" : undefined}
+                  rel={option.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                  className="inline-flex items-center gap-1 text-[#D4AF37] font-semibold hover:underline transition"
+                >
+                  {option.cta} &rarr;
+                </a>
+              )}
             </motion.div>
           ))}
         </div>

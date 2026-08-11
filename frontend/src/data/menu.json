@@ -324,7 +324,7 @@
     "id": 33,
     "name": "Cafe Latte",
     "price": "$5",
-    "image": "/item_background.png",
+    "image": "/cafe_latte.png",
     "categories": [
       "Coffee",
       "Specialty Drinks"
@@ -335,7 +335,7 @@
     "id": 34,
     "name": "Creme Brulee Black Sesame Latte",
     "price": "$6.50",
-    "image": "/item_background.png",
+    "image": "/creme_brulee_black_sesame.png",
     "categories": [
       "Specialty Drinks"
     ],
@@ -345,7 +345,7 @@
     "id": 35,
     "name": "Creme Brulee Coffee",
     "price": "$6.50",
-    "image": "/item_background.png",
+    "image": "/creme_brulee_coffee.jpg",
     "categories": [
       "Coffee",
       "Specialty Drinks"
@@ -356,7 +356,7 @@
     "id": 36,
     "name": "Hibiscus Tea",
     "price": "$4.75",
-    "image": "/item_background.png",
+    "image": "/hibiscus_tea.png",
     "categories": [
       "Iced Tea",
       "Specialty Drinks"
@@ -367,7 +367,7 @@
     "id": 37,
     "name": "Lychee Slushie",
     "price": "$5.50",
-    "image": "/item_background.png",
+    "image": "/lychee_slushie.png",
     "categories": [
       "Specialty Drinks"
     ],
@@ -377,7 +377,7 @@
     "id": 38,
     "name": "Mango Limeade",
     "price": "$5.50",
-    "image": "/item_background.png",
+    "image": "/mango_limeade.png",
     "categories": [
       "Specialty Drinks"
     ],
@@ -387,7 +387,7 @@
     "id": 39,
     "name": "Mango Slushie",
     "price": "$5.50",
-    "image": "/item_background.png",
+    "image": "/mango_slushie.png",
     "categories": [
       "Specialty Drinks"
     ],
@@ -397,7 +397,7 @@
     "id": 40,
     "name": "Matcha Cafe Latte",
     "price": "$6.50",
-    "image": "/item_background.png",
+    "image": "/matcha_cafe_latte.png",
     "categories": [
       "Coffee",
       "Specialty Drinks"
@@ -430,7 +430,7 @@
     "id": 43,
     "name": "Strawberry Limeade",
     "price": "$5.50",
-    "image": "/item_background.png",
+    "image": "/strawberry_limeade.png",
     "categories": [
       "Specialty Drinks"
     ],
@@ -440,7 +440,7 @@
     "id": 44,
     "name": "Strawberry Slushie",
     "price": "$5.50",
-    "image": "/item_background.png",
+    "image": "/strawberry_slushie.png",
     "categories": [
       "Specialty Drinks"
     ],
@@ -460,7 +460,7 @@
     "id": 46,
     "name": "Thai Tea",
     "price": "$6",
-    "image": "/item_background.png",
+    "image": "/thai_tea.png",
     "categories": [
       "Iced Tea",
       "Specialty Drinks"
@@ -532,7 +532,7 @@
     "id": 53,
     "name": "Decaf",
     "price": "$5",
-    "image": "/item_background.png",
+    "image": "/decaf.png",
     "categories": [
       "Coffee"
     ],
@@ -542,7 +542,7 @@
     "id": 54,
     "name": "Espresso",
     "price": "$3",
-    "image": "/item_background.png",
+    "image": "/espresso.png",
     "categories": [
       "Coffee"
     ],
@@ -595,16 +595,6 @@
     "image": "/item_background.png",
     "categories": [
       "Hot Tea"
-    ],
-    "description": ""
-  },
-  {
-    "id": 60,
-    "name": "Latte",
-    "price": "$5",
-    "image": "/item_background.png",
-    "categories": [
-      "Coffee"
     ],
     "description": ""
   },

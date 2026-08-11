@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 
 // top row indices: 1, 2, 3
 // bottom row indices: 4, 5,  6
-const selectedIds = [18, 27, 10, 16, 26, 67];
+const selectedIds = [16, 6, 12, 18, 8, 10];
 const previewItems = selectedIds.map((id) => desserts.find((d) => d.id === id));
 
 export default function MenuPreview() {

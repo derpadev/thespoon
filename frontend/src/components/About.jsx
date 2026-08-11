@@ -32,28 +32,28 @@ export default function About() {
           </p>
           <h3 className="text-gray-700 text-4xl font-bold mb-6">About Us</h3>
           <p className="text-gray-600 text-lg leading-relaxed mb-4">
-            Born in the heart of Stanton, California, The Spoon Dessert Cafe
-            started with a simple idea — that every dessert should feel like a
-            celebration. What began as a small kitchen experiment between
-            friends quickly grew into a beloved neighborhood destination.
+            The Spoon Dessert Cafe offers luxury-quality desserts, calming teas,
+            and a cozy, vibrant atmosphere. With comfortable seating, and a
+            picture-perfect space, The Spoon is a place to relax, connect, and
+            keep coming back to.
           </p>
           <p className="text-gray-600 text-lg leading-relaxed mb-6">
             We handcraft every mousse, cheesecake, and latte using premium
-            ingredients sourced with care. From our signature Ube Cheesecake to
-            seasonal creations you won't find anywhere else, each item on our
-            menu is designed to surprise and delight.
+            ingredients sourced with care. From our signature classic desserts
+            to seasonal creations you won't find anywhere else, each item on our
+            menu is designed to be eye catching and delicious.
           </p>
           <div className="flex gap-8">
             <div>
-              <p className="text-3xl font-bold text-[#D4AF37]">50+</p>
+              <p className="text-3xl font-bold text-[#D4AF37]">30+</p>
               <p className="text-gray-500 text-sm">Unique Desserts</p>
             </div>
             <div>
               <p className="text-3xl font-bold text-[#D4AF37]">100%</p>
-              <p className="text-gray-500 text-sm">Made Fresh Daily</p>
+              <p className="text-gray-500 text-sm">Handcrafted</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-[#D4AF37]">5★</p>
+              <p className="text-3xl font-bold text-[#D4AF37]">4.4★</p>
               <p className="text-gray-500 text-sm">Customer Love</p>
             </div>
           </div>
