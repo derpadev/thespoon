@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 import HomePage from "./pages/HomePage";
 import MenuPage from "./pages/MenuPage";
 
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/menu" element={<MenuPage />} />
       </Routes>
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }

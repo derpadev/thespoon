@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 
 // Add your dessert images here (stored in public/)
 const slides = [
-  "/yuzu_blueberry_mousse.jpg",
-  "/ube_cheesecake.jpg",
-  "/mocha_cake.jpg",
+  "/whole-cakes/yuzu_blueberry_mousse.jpg",
+  "/small-desserts/ube_cheesecake.jpg",
+  "/whole-cakes/mocha_cake.jpg",
 ];
 
 export default function Hero() {
