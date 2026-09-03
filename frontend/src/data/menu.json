@@ -251,6 +251,16 @@
   },
   {
     "id": 26,
+    "name": "Labubu",
+    "price": "$7",
+    "image": "/small-desserts/labubu.png",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 27,
     "name": "Hibiscus Tea",
     "price": "$4.75",
     "image": "/drinks/hibiscus_tea.png",
@@ -261,7 +271,7 @@
     "description": ""
   },
   {
-    "id": 27,
+    "id": 28,
     "name": "Cafe Latte",
     "price": "$5",
     "image": "/drinks/cafe_latte.png",
@@ -272,7 +282,7 @@
     "description": ""
   },
   {
-    "id": 28,
+    "id": 29,
     "name": "Butterfly Calamansi",
     "price": "$5.50",
     "image": "/drinks/butterfly_calamansi.jpg",
@@ -282,7 +292,7 @@
     "description": ""
   },
   {
-    "id": 29,
+    "id": 30,
     "name": "Honeydew Slushie",
     "price": "$5.50",
     "image": "/drinks/honeydew_slushie.jpg",
@@ -292,7 +302,7 @@
     "description": ""
   },
   {
-    "id": 30,
+    "id": 31,
     "name": "Lychee Slushie",
     "price": "$5.50",
     "image": "/drinks/lychee_slushie.png",
@@ -302,7 +312,7 @@
     "description": ""
   },
   {
-    "id": 31,
+    "id": 32,
     "name": "Mango Limeade",
     "price": "$5.50",
     "image": "/drinks/mango_limeade.png",
@@ -312,7 +322,7 @@
     "description": ""
   },
   {
-    "id": 32,
+    "id": 33,
     "name": "Mango Slushie",
     "price": "$5.50",
     "image": "/drinks/mango_slushie.png",
@@ -322,7 +332,7 @@
     "description": ""
   },
   {
-    "id": 33,
+    "id": 34,
     "name": "Strawberry Limeade",
     "price": "$5.50",
     "image": "/drinks/strawberry_limeade.png",
@@ -332,7 +342,7 @@
     "description": ""
   },
   {
-    "id": 34,
+    "id": 35,
     "name": "Strawberry Slushie",
     "price": "$5.50",
     "image": "/drinks/strawberry_slushie.png",
@@ -342,7 +352,7 @@
     "description": ""
   },
   {
-    "id": 35,
+    "id": 36,
     "name": "Thai Tea",
     "price": "$6",
     "image": "/drinks/thai_tea.png",
@@ -353,7 +363,7 @@
     "description": ""
   },
   {
-    "id": 36,
+    "id": 37,
     "name": "Ube Latte",
     "price": "$6",
     "image": "/drinks/ube_latte.jpg",
@@ -363,7 +373,7 @@
     "description": ""
   },
   {
-    "id": 37,
+    "id": 38,
     "name": "Creme Brulee Black Sesame Latte",
     "price": "$6.50",
     "image": "/drinks/creme_brulee_black_sesame.png",
@@ -373,7 +383,7 @@
     "description": ""
   },
   {
-    "id": 38,
+    "id": 39,
     "name": "Creme Brulee Coffee",
     "price": "$6.50",
     "image": "/drinks/creme_brulee_coffee.jpg",
@@ -384,7 +394,7 @@
     "description": ""
   },
   {
-    "id": 39,
+    "id": 40,
     "name": "Creme Brulee Matcha Latte",
     "price": "$6.50",
     "image": "/drinks/creme_brulee_matcha_latte.jpg",
@@ -394,7 +404,7 @@
     "description": ""
   },
   {
-    "id": 40,
+    "id": 41,
     "name": "Matcha Black Sesame Latte",
     "price": "$6.50",
     "image": "/drinks/black_sesame_matcha_latte.jpg",
@@ -404,7 +414,7 @@
     "description": ""
   },
   {
-    "id": 41,
+    "id": 42,
     "name": "Matcha Cafe Latte",
     "price": "$6.50",
     "image": "/drinks/matcha_cafe_latte.png",
@@ -415,7 +425,7 @@
     "description": ""
   },
   {
-    "id": 42,
+    "id": 43,
     "name": "Matcha Latte",
     "price": "$6.50",
     "image": "/drinks/matcha_latte.jpg",
@@ -425,7 +435,7 @@
     "description": ""
   },
   {
-    "id": 43,
+    "id": 44,
     "name": "Ube Cafe Latte",
     "price": "$6.50",
     "image": "/drinks/ube_cafe_latte.png",
@@ -436,7 +446,7 @@
     "description": ""
   },
   {
-    "id": 44,
+    "id": 45,
     "name": "Tamarindo",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -446,7 +456,7 @@
     "description": ""
   },
   {
-    "id": 45,
+    "id": 46,
     "name": "Soursop Iced Tea",
     "price": "$5.75",
     "image": "/item_background.png",
@@ -457,7 +467,7 @@
     "description": ""
   },
   {
-    "id": 46,
+    "id": 47,
     "name": "Tropical Iced Tea",
     "price": "$5.75",
     "image": "/item_background.png",
@@ -468,7 +478,7 @@
     "description": ""
   },
   {
-    "id": 47,
+    "id": 48,
     "name": "Nutella Cafe Latte",
     "price": "$6.50",
     "image": "/item_background.png",
@@ -479,7 +489,7 @@
     "description": ""
   },
   {
-    "id": 48,
+    "id": 49,
     "name": "Espresso",
     "price": "$3",
     "image": "/drinks/espresso.png",
@@ -489,7 +499,7 @@
     "description": ""
   },
   {
-    "id": 49,
+    "id": 50,
     "name": "Decaf",
     "price": "$5",
     "image": "/drinks/decaf.png",
@@ -499,7 +509,7 @@
     "description": ""
   },
   {
-    "id": 50,
+    "id": 51,
     "name": "Kumquat Ice Tea",
     "price": "$5.25",
     "image": "/drinks/kumquat_iced_tea.jpg",
@@ -509,7 +519,7 @@
     "description": ""
   },
   {
-    "id": 51,
+    "id": 52,
     "name": "Blooming Tea",
     "price": "$7",
     "image": "/drinks/blooming_tea.jpg",
@@ -519,7 +529,7 @@
     "description": ""
   },
   {
-    "id": 52,
+    "id": 53,
     "name": "Beauty Tea",
     "price": "$4",
     "image": "/item_background.png",
@@ -529,7 +539,7 @@
     "description": ""
   },
   {
-    "id": 53,
+    "id": 54,
     "name": "Iced Black Coffee",
     "price": "$4",
     "image": "/item_background.png",
@@ -539,7 +549,7 @@
     "description": ""
   },
   {
-    "id": 54,
+    "id": 55,
     "name": "Lemon Tea",
     "price": "$4.50",
     "image": "/item_background.png",
@@ -549,7 +559,7 @@
     "description": ""
   },
   {
-    "id": 55,
+    "id": 56,
     "name": "Buddha Tea",
     "price": "$5",
     "image": "/item_background.png",
@@ -559,7 +569,7 @@
     "description": ""
   },
   {
-    "id": 56,
+    "id": 57,
     "name": "Cappuccino",
     "price": "$5",
     "image": "/item_background.png",
@@ -569,7 +579,7 @@
     "description": ""
   },
   {
-    "id": 57,
+    "id": 58,
     "name": "Hot Tea Pot",
     "price": "$5",
     "image": "/item_background.png",
@@ -579,7 +589,7 @@
     "description": ""
   },
   {
-    "id": 58,
+    "id": 59,
     "name": "Jasmine Tea",
     "price": "$5",
     "image": "/item_background.png",
@@ -589,7 +599,7 @@
     "description": ""
   },
   {
-    "id": 59,
+    "id": 60,
     "name": "Vietnamese Iced Coffee",
     "price": "$5",
     "image": "/item_background.png",
@@ -599,7 +609,7 @@
     "description": ""
   },
   {
-    "id": 60,
+    "id": 61,
     "name": "Honey Passion Fruit Tea",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -609,7 +619,7 @@
     "description": ""
   },
   {
-    "id": 61,
+    "id": 62,
     "name": "Kumquat Tea",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -619,7 +629,7 @@
     "description": ""
   },
   {
-    "id": 62,
+    "id": 63,
     "name": "Lychee Tea",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -629,7 +639,7 @@
     "description": ""
   },
   {
-    "id": 63,
+    "id": 64,
     "name": "Passion Fruit Tea",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -639,7 +649,7 @@
     "description": ""
   },
   {
-    "id": 64,
+    "id": 65,
     "name": "Peach Tea",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -649,7 +659,7 @@
     "description": ""
   },
   {
-    "id": 65,
+    "id": 66,
     "name": "Oolong Tea",
     "price": "$7",
     "image": "/item_background.png",
@@ -666,7 +676,7 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 66
+    "id": 67
   },
   {
     "name": "Matcha Tiramisu",
@@ -676,7 +686,7 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 67
+    "id": 68
   },
   {
     "name": "Pistachio Strawberry Mousse",
@@ -686,10 +696,10 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 68
+    "id": 69
   },
   {
-    "id": 69,
+    "id": 70,
     "name": "Yuzu Blueberry Mousse",
     "price": "$45",
     "image": "/whole-cakes/yuzu_blueberry_mousse.jpg",
@@ -706,10 +716,10 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 70
+    "id": 71
   },
   {
-    "id": 71,
+    "id": 72,
     "name": "Red Velvet",
     "price": "$42",
     "image": "/whole-cakes/red_velvet_big_cake.png",
@@ -726,10 +736,10 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 72
+    "id": 73
   },
   {
-    "id": 73,
+    "id": 74,
     "name": "Mango Cheesecake",
     "price": "$39",
     "image": "/whole-cakes/mango_cheesecake_big_cake.png",
@@ -746,7 +756,7 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 74
+    "id": 75
   },
   {
     "name": "Ube Cheesecake",
@@ -756,10 +766,10 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 75
+    "id": 76
   },
   {
-    "id": 76,
+    "id": 77,
     "name": "Heart Shape Cake",
     "price": "$35",
     "image": "/whole-cakes/heart_shaped_big_cake.png",
