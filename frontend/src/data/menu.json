@@ -51,206 +51,6 @@
   },
   {
     "id": 6,
-    "name": "Lemon Blueberry Cheesecake",
-    "price": "$7",
-    "image": "/small-desserts/lemon_blueberry.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 7,
-    "name": "Mango Passion Cheesecake",
-    "price": "$7",
-    "image": "/small-desserts/mango_passion.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 8,
-    "name": "Matcha Tiramisu",
-    "price": "$7",
-    "image": "/small-desserts/matcha_tiramisu2.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 9,
-    "name": "Oreo Cheesecake",
-    "price": "$7",
-    "image": "/small-desserts/oreo_cheesecake.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 10,
-    "name": "Ube Cheesecake",
-    "price": "$7",
-    "image": "/small-desserts/ube_cheesecake.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": "Creamy cheesecake infused with sweet ube for a silky, lightly nutty dessert with a signature purple glow."
-  },
-  {
-    "id": 11,
-    "name": "Dragon Fruit Berry Bear",
-    "price": "$8",
-    "image": "/small-desserts/dragon_fruit_cheesecake_bear.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 12,
-    "name": "Dulce De Leche Mousse",
-    "price": "$8",
-    "image": "/small-desserts/dulce_de_leche.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 13,
-    "name": "Durian Mousse",
-    "price": "$8",
-    "image": "/small-desserts/durian_mousse.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 14,
-    "name": "Ganache Dulce De Leche",
-    "price": "$8",
-    "image": "/small-desserts/ganache_dulce_de_leche.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 15,
-    "name": "Honeydew Mango Black Sesame",
-    "price": "$8",
-    "image": "/small-desserts/honeydew_mango.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 16,
-    "name": "Lychee Pig",
-    "price": "$8",
-    "image": "/small-desserts/lychee_pig.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 17,
-    "name": "Milk Tea Mousse",
-    "price": "$8",
-    "image": "/small-desserts/milk_tea.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 18,
-    "name": "Nutella Bear",
-    "price": "$8",
-    "image": "/small-desserts/nutella_bear.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": "A decadent, airy Nutella mousse shaped like a bear, with a silky smooth texture and a rich chocolatey flavor that melts in your mouth. Sweet, indulgent, and impossible to resist!"
-  },
-  {
-    "id": 19,
-    "name": "Pandan Coconut Ube Mousse",
-    "price": "$8",
-    "image": "/small-desserts/pandan_coconut_ube_mousse.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 20,
-    "name": "Passion Cherry Pineapple Cheesecake",
-    "price": "$8",
-    "image": "/small-desserts/passion_cherry.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 21,
-    "name": "Pistachio Strawberry Mousse",
-    "price": "$8",
-    "image": "/small-desserts/strawberry_pistachio.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 22,
-    "name": "Red Velvet",
-    "price": "$8",
-    "image": "/small-desserts/red_velvet.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 23,
-    "name": "Strawberry Mousse",
-    "price": "$8",
-    "image": "/small-desserts/strawberry_mousse.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": "A fluffy, creamy strawberry dessert bursting with sweet berry flavor."
-  },
-  {
-    "id": 24,
-    "name": "Yuzu Mango",
-    "price": "$8",
-    "image": "/small-desserts/yuzu_mango.jpg",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 25,
-    "name": "Flower Pot",
-    "price": "$11",
-    "image": "/small-desserts/flower_pot.png",
-    "categories": [
-      "Dessert"
-    ],
-    "description": ""
-  },
-  {
-    "id": 26,
     "name": "Labubu",
     "price": "$7",
     "image": "/small-desserts/labubu.png",
@@ -260,7 +60,237 @@
     "description": ""
   },
   {
+    "id": 7,
+    "name": "Lemon Blueberry Cheesecake",
+    "price": "$7",
+    "image": "/small-desserts/lemon_blueberry.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 8,
+    "name": "Mango Passion Cheesecake",
+    "price": "$7",
+    "image": "/small-desserts/mango_passion.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 9,
+    "name": "Matcha Tiramisu",
+    "price": "$7",
+    "image": "/small-desserts/matcha_tiramisu2.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 10,
+    "name": "Oreo Cheesecake",
+    "price": "$7",
+    "image": "/small-desserts/oreo_cheesecake.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 11,
+    "name": "Ube Cheesecake",
+    "price": "$7",
+    "image": "/small-desserts/ube_cheesecake.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": "Creamy cheesecake infused with sweet ube for a silky, lightly nutty dessert with a signature purple glow."
+  },
+  {
+    "name": "Apple White Chocolate",
+    "price": "$8",
+    "image": "/small-desserts/apple_white_chocolate.png",
+    "categories": [
+      "Dessert"
+    ],
+    "description": "Apple compote and white chocolate.",
+    "id": 12
+  },
+  {
+    "id": 13,
+    "name": "Dragon Fruit Berry Bear",
+    "price": "$8",
+    "image": "/small-desserts/dragon_fruit_cheesecake_bear.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 14,
+    "name": "Dulce De Leche Mousse",
+    "price": "$8",
+    "image": "/small-desserts/dulce_de_leche.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 15,
+    "name": "Durian Mousse",
+    "price": "$8",
+    "image": "/small-desserts/durian_mousse.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "name": "Earl Grey Pear",
+    "price": "$8",
+    "image": "/small-desserts/pear.png",
+    "categories": [
+      "Dessert"
+    ],
+    "description": "Real pear and white chocolate.",
+    "id": 16
+  },
+  {
+    "id": 17,
+    "name": "Ganache Dulce De Leche",
+    "price": "$8",
+    "image": "/small-desserts/ganache_dulce_de_leche.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 18,
+    "name": "Honeydew Mango Black Sesame",
+    "price": "$8",
+    "image": "/small-desserts/honeydew_mango.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 19,
+    "name": "Lychee Pig",
+    "price": "$8",
+    "image": "/small-desserts/lychee_pig.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 20,
+    "name": "Milk Tea Mousse",
+    "price": "$8",
+    "image": "/small-desserts/milk_tea.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 21,
+    "name": "Nutella Bear",
+    "price": "$8",
+    "image": "/small-desserts/nutella_bear.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": "A decadent, airy Nutella mousse shaped like a bear, with a silky smooth texture and a rich chocolatey flavor that melts in your mouth. Sweet, indulgent, and impossible to resist!"
+  },
+  {
+    "id": 22,
+    "name": "Pandan Coconut Ube Mousse",
+    "price": "$8",
+    "image": "/small-desserts/pandan_coconut_ube_mousse.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 23,
+    "name": "Passion Cherry Pineapple Cheesecake",
+    "price": "$8",
+    "image": "/small-desserts/passion_cherry.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 24,
+    "name": "Pistachio Strawberry Mousse",
+    "price": "$8",
+    "image": "/small-desserts/strawberry_pistachio.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "name": "Pumpkin Cheesecake",
+    "price": "$8",
+    "image": "/small-desserts/pumpkin_cheesecake.png",
+    "categories": [
+      "Dessert"
+    ],
+    "description": "light, sweet, pumpkin spiced",
+    "id": 25
+  },
+  {
+    "id": 26,
+    "name": "Red Velvet",
+    "price": "$8",
+    "image": "/small-desserts/red_velvet.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
     "id": 27,
+    "name": "Strawberry Mousse",
+    "price": "$8",
+    "image": "/small-desserts/strawberry_mousse.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": "A fluffy, creamy strawberry dessert bursting with sweet berry flavor."
+  },
+  {
+    "id": 28,
+    "name": "Yuzu Mango",
+    "price": "$8",
+    "image": "/small-desserts/yuzu_mango.jpg",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 29,
+    "name": "Flower Pot",
+    "price": "$11",
+    "image": "/small-desserts/flower_pot.png",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
+    "id": 30,
     "name": "Hibiscus Tea",
     "price": "$4.75",
     "image": "/drinks/hibiscus_tea.png",
@@ -271,7 +301,7 @@
     "description": ""
   },
   {
-    "id": 28,
+    "id": 31,
     "name": "Cafe Latte",
     "price": "$5",
     "image": "/drinks/cafe_latte.png",
@@ -282,7 +312,7 @@
     "description": ""
   },
   {
-    "id": 29,
+    "id": 32,
     "name": "Butterfly Calamansi",
     "price": "$5.50",
     "image": "/drinks/butterfly_calamansi.jpg",
@@ -292,7 +322,7 @@
     "description": ""
   },
   {
-    "id": 30,
+    "id": 33,
     "name": "Honeydew Slushie",
     "price": "$5.50",
     "image": "/drinks/honeydew_slushie.jpg",
@@ -302,7 +332,7 @@
     "description": ""
   },
   {
-    "id": 31,
+    "id": 34,
     "name": "Lychee Slushie",
     "price": "$5.50",
     "image": "/drinks/lychee_slushie.png",
@@ -312,7 +342,7 @@
     "description": ""
   },
   {
-    "id": 32,
+    "id": 35,
     "name": "Mango Limeade",
     "price": "$5.50",
     "image": "/drinks/mango_limeade.png",
@@ -322,7 +352,7 @@
     "description": ""
   },
   {
-    "id": 33,
+    "id": 36,
     "name": "Mango Slushie",
     "price": "$5.50",
     "image": "/drinks/mango_slushie.png",
@@ -332,7 +362,7 @@
     "description": ""
   },
   {
-    "id": 34,
+    "id": 37,
     "name": "Strawberry Limeade",
     "price": "$5.50",
     "image": "/drinks/strawberry_limeade.png",
@@ -342,7 +372,7 @@
     "description": ""
   },
   {
-    "id": 35,
+    "id": 38,
     "name": "Strawberry Slushie",
     "price": "$5.50",
     "image": "/drinks/strawberry_slushie.png",
@@ -352,7 +382,7 @@
     "description": ""
   },
   {
-    "id": 36,
+    "id": 39,
     "name": "Thai Tea",
     "price": "$6",
     "image": "/drinks/thai_tea.png",
@@ -363,7 +393,7 @@
     "description": ""
   },
   {
-    "id": 37,
+    "id": 40,
     "name": "Ube Latte",
     "price": "$6",
     "image": "/drinks/ube_latte.jpg",
@@ -373,7 +403,7 @@
     "description": ""
   },
   {
-    "id": 38,
+    "id": 41,
     "name": "Creme Brulee Black Sesame Latte",
     "price": "$6.50",
     "image": "/drinks/creme_brulee_black_sesame.png",
@@ -383,7 +413,7 @@
     "description": ""
   },
   {
-    "id": 39,
+    "id": 42,
     "name": "Creme Brulee Coffee",
     "price": "$6.50",
     "image": "/drinks/creme_brulee_coffee.jpg",
@@ -394,7 +424,7 @@
     "description": ""
   },
   {
-    "id": 40,
+    "id": 43,
     "name": "Creme Brulee Matcha Latte",
     "price": "$6.50",
     "image": "/drinks/creme_brulee_matcha_latte.jpg",
@@ -404,7 +434,7 @@
     "description": ""
   },
   {
-    "id": 41,
+    "id": 44,
     "name": "Matcha Black Sesame Latte",
     "price": "$6.50",
     "image": "/drinks/black_sesame_matcha_latte.jpg",
@@ -414,7 +444,7 @@
     "description": ""
   },
   {
-    "id": 42,
+    "id": 45,
     "name": "Matcha Cafe Latte",
     "price": "$6.50",
     "image": "/drinks/matcha_cafe_latte.png",
@@ -425,7 +455,7 @@
     "description": ""
   },
   {
-    "id": 43,
+    "id": 46,
     "name": "Matcha Latte",
     "price": "$6.50",
     "image": "/drinks/matcha_latte.jpg",
@@ -435,7 +465,18 @@
     "description": ""
   },
   {
-    "id": 44,
+    "name": "Pumpkin Spice Latte",
+    "price": "$6.50",
+    "image": "/small-desserts/pumpkin_spice_latte.png",
+    "categories": [
+      "Coffee",
+      "Specialty Drinks"
+    ],
+    "description": "Refreshing fall flavors",
+    "id": 47
+  },
+  {
+    "id": 48,
     "name": "Ube Cafe Latte",
     "price": "$6.50",
     "image": "/drinks/ube_cafe_latte.png",
@@ -446,7 +487,7 @@
     "description": ""
   },
   {
-    "id": 45,
+    "id": 49,
     "name": "Tamarindo",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -456,7 +497,7 @@
     "description": ""
   },
   {
-    "id": 46,
+    "id": 50,
     "name": "Soursop Iced Tea",
     "price": "$5.75",
     "image": "/item_background.png",
@@ -467,7 +508,7 @@
     "description": ""
   },
   {
-    "id": 47,
+    "id": 51,
     "name": "Tropical Iced Tea",
     "price": "$5.75",
     "image": "/item_background.png",
@@ -478,7 +519,7 @@
     "description": ""
   },
   {
-    "id": 48,
+    "id": 52,
     "name": "Nutella Cafe Latte",
     "price": "$6.50",
     "image": "/item_background.png",
@@ -489,7 +530,7 @@
     "description": ""
   },
   {
-    "id": 49,
+    "id": 53,
     "name": "Espresso",
     "price": "$3",
     "image": "/drinks/espresso.png",
@@ -499,7 +540,7 @@
     "description": ""
   },
   {
-    "id": 50,
+    "id": 54,
     "name": "Decaf",
     "price": "$5",
     "image": "/drinks/decaf.png",
@@ -509,7 +550,7 @@
     "description": ""
   },
   {
-    "id": 51,
+    "id": 55,
     "name": "Kumquat Ice Tea",
     "price": "$5.25",
     "image": "/drinks/kumquat_iced_tea.jpg",
@@ -519,7 +560,7 @@
     "description": ""
   },
   {
-    "id": 52,
+    "id": 56,
     "name": "Blooming Tea",
     "price": "$7",
     "image": "/drinks/blooming_tea.jpg",
@@ -529,7 +570,7 @@
     "description": ""
   },
   {
-    "id": 53,
+    "id": 57,
     "name": "Beauty Tea",
     "price": "$4",
     "image": "/item_background.png",
@@ -539,7 +580,7 @@
     "description": ""
   },
   {
-    "id": 54,
+    "id": 58,
     "name": "Iced Black Coffee",
     "price": "$4",
     "image": "/item_background.png",
@@ -549,7 +590,7 @@
     "description": ""
   },
   {
-    "id": 55,
+    "id": 59,
     "name": "Lemon Tea",
     "price": "$4.50",
     "image": "/item_background.png",
@@ -559,7 +600,7 @@
     "description": ""
   },
   {
-    "id": 56,
+    "id": 60,
     "name": "Buddha Tea",
     "price": "$5",
     "image": "/item_background.png",
@@ -569,7 +610,7 @@
     "description": ""
   },
   {
-    "id": 57,
+    "id": 61,
     "name": "Cappuccino",
     "price": "$5",
     "image": "/item_background.png",
@@ -579,7 +620,7 @@
     "description": ""
   },
   {
-    "id": 58,
+    "id": 62,
     "name": "Hot Tea Pot",
     "price": "$5",
     "image": "/item_background.png",
@@ -589,7 +630,7 @@
     "description": ""
   },
   {
-    "id": 59,
+    "id": 63,
     "name": "Jasmine Tea",
     "price": "$5",
     "image": "/item_background.png",
@@ -599,7 +640,7 @@
     "description": ""
   },
   {
-    "id": 60,
+    "id": 64,
     "name": "Vietnamese Iced Coffee",
     "price": "$5",
     "image": "/item_background.png",
@@ -609,7 +650,7 @@
     "description": ""
   },
   {
-    "id": 61,
+    "id": 65,
     "name": "Honey Passion Fruit Tea",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -619,7 +660,7 @@
     "description": ""
   },
   {
-    "id": 62,
+    "id": 66,
     "name": "Kumquat Tea",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -629,7 +670,7 @@
     "description": ""
   },
   {
-    "id": 63,
+    "id": 67,
     "name": "Lychee Tea",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -639,7 +680,7 @@
     "description": ""
   },
   {
-    "id": 64,
+    "id": 68,
     "name": "Passion Fruit Tea",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -649,7 +690,7 @@
     "description": ""
   },
   {
-    "id": 65,
+    "id": 69,
     "name": "Peach Tea",
     "price": "$5.25",
     "image": "/item_background.png",
@@ -659,7 +700,7 @@
     "description": ""
   },
   {
-    "id": 66,
+    "id": 70,
     "name": "Oolong Tea",
     "price": "$7",
     "image": "/item_background.png",
@@ -676,7 +717,7 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 67
+    "id": 71
   },
   {
     "name": "Matcha Tiramisu",
@@ -686,7 +727,7 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 68
+    "id": 72
   },
   {
     "name": "Pistachio Strawberry Mousse",
@@ -696,10 +737,10 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 69
+    "id": 73
   },
   {
-    "id": 70,
+    "id": 74,
     "name": "Yuzu Blueberry Mousse",
     "price": "$45",
     "image": "/whole-cakes/yuzu_blueberry_mousse.jpg",
@@ -716,10 +757,10 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 71
+    "id": 75
   },
   {
-    "id": 72,
+    "id": 76,
     "name": "Red Velvet",
     "price": "$42",
     "image": "/whole-cakes/red_velvet_big_cake.png",
@@ -736,10 +777,10 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 73
+    "id": 77
   },
   {
-    "id": 74,
+    "id": 78,
     "name": "Mango Cheesecake",
     "price": "$39",
     "image": "/whole-cakes/mango_cheesecake_big_cake.png",
@@ -756,7 +797,7 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 75
+    "id": 79
   },
   {
     "name": "Ube Cheesecake",
@@ -766,10 +807,10 @@
       "Whole Cake"
     ],
     "description": "",
-    "id": 76
+    "id": 80
   },
   {
-    "id": 77,
+    "id": 81,
     "name": "Heart Shape Cake",
     "price": "$35",
     "image": "/whole-cakes/heart_shaped_big_cake.png",

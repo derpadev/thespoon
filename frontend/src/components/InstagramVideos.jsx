@@ -7,9 +7,9 @@ export default function InstagramVideos() {
   );
 
   return (
-    <section id="instagram" className="px-8 py-16 bg-[#FFF7E8]">
+    <section id="instagram" className="px-8 py-16 bg-[#F1F5F9]">
       <div className="max-w-6xl mx-auto">
-        <p className="text-[#D4AF37] font-semibold tracking-widest uppercase text-sm text-center mb-2">
+        <p className="text-[#F5D76E] font-semibold tracking-widest uppercase text-sm text-center mb-2">
           Social
         </p>
         <h3 className="text-gray-800 text-3xl md:text-4xl font-bold text-center mb-4">
@@ -31,7 +31,7 @@ export default function InstagramVideos() {
               return (
                 <figure
                   key={post.id}
-                  className="rounded-2xl overflow-hidden bg-[#FFF7E8] shadow-md border border-gray-100"
+                  className="rounded-2xl overflow-hidden bg-[#F1F5F9] shadow-md border border-gray-100"
                 >
                   {post.title ? (
                     <figcaption className="px-4 py-3 text-sm font-medium text-gray-700 border-b border-gray-100/80">

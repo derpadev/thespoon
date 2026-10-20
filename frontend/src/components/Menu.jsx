@@ -26,7 +26,7 @@ export default function Menu() {
   });
 
   return (
-    <section id="menu" className="px-8 py-16 bg-[#FFF7E8]">
+    <section id="menu" className="px-8 py-16 bg-[#F1F5F9]">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col gap-4 mb-10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
@@ -78,7 +78,7 @@ export default function Menu() {
           <div className="text-center py-16">
             <p className="text-gray-400 text-lg">No items found.</p>
             <button
-              className="mt-2 text-[#D4AF37] underline text-sm"
+              className="mt-2 text-[#F5D76E] underline text-sm"
               onClick={() => {
                 setSearch("");
                 setTopFilter("All");
@@ -109,7 +109,7 @@ export default function Menu() {
                     <p className="text-gray-500 text-sm mb-3">
                       {getItemTypeLabel(dessert)}
                     </p>
-                    <span className="font-bold text-[#D4AF37] text-lg">{dessert.price}</span>
+                    <span className="font-bold text-[#F5D76E] text-lg">{dessert.price}</span>
                   </CardContent>
                 </Card>
               </motion.div>

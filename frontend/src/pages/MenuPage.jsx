@@ -33,11 +33,11 @@ export default function MenuPage() {
   });
 
   return (
-    <div className="min-h-screen bg-[#FFF7E8] pt-24 pb-16">
+    <div className="min-h-screen bg-[#F1F5F9] pt-24 pb-16">
       <div className="max-w-6xl mx-auto px-8">
         <Link
           to="/"
-          className="inline-flex items-center gap-2 text-gray-500 hover:text-[#D4AF37] transition mb-8"
+          className="inline-flex items-center gap-2 text-gray-500 hover:text-[#F5D76E] transition mb-8"
         >
           <ArrowLeft size={18} /> Back to Home
         </Link>
@@ -92,7 +92,7 @@ export default function MenuPage() {
           <div className="text-center py-16">
             <p className="text-gray-400 text-lg">No items found.</p>
             <button
-              className="mt-2 text-[#D4AF37] underline text-sm"
+              className="mt-2 text-[#F5D76E] underline text-sm"
               onClick={() => {
                 setSearch("");
                 setTopFilter("All");
@@ -123,7 +123,7 @@ export default function MenuPage() {
                     <p className="text-gray-400 text-sm mb-3">
                       {getItemTypeLabel(dessert)}
                     </p>
-                    <span className="font-bold text-[#D4AF37] text-lg">{dessert.price}</span>
+                    <span className="font-bold text-[#F5D76E] text-lg">{dessert.price}</span>
                   </CardContent>
                 </Card>
               </motion.div>

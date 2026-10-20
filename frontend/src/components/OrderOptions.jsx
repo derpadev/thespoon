@@ -40,9 +40,9 @@ const cardVariants = {
 
 export default function OrderOptions() {
   return (
-    <section id="order" className="px-8 py-24 bg-[#FFF7E8]">
+    <section id="order" className="px-8 py-24 bg-[#F1F5F9]">
       <div className="max-w-6xl mx-auto">
-        <p className="text-[#D4AF37] font-semibold tracking-widest uppercase text-sm text-center mb-2">
+        <p className="text-[#F5D76E] font-semibold tracking-widest uppercase text-sm text-center mb-2">
           How to Order
         </p>
         <h3 className="text-gray-800 text-3xl md:text-4xl font-bold text-center mb-14">
@@ -61,8 +61,8 @@ export default function OrderOptions() {
               whileHover={{ y: -6 }}
               className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-lg transition-shadow flex flex-col items-center text-center"
             >
-              <div className="w-14 h-14 rounded-2xl bg-[#D4AF37]/10 flex items-center justify-center mb-5">
-                <option.icon size={28} className="text-[#D4AF37]" />
+              <div className="w-14 h-14 rounded-2xl bg-[#F5D76E]/10 flex items-center justify-center mb-5">
+                <option.icon size={28} className="text-[#F5D76E]" />
               </div>
               <h4 className="text-gray-800 text-xl font-bold mb-3">{option.title}</h4>
               <p className="text-gray-500 leading-relaxed mb-6 flex-1">{option.description}</p>
@@ -74,7 +74,7 @@ export default function OrderOptions() {
                       href={link.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-1 text-[#D4AF37] font-semibold hover:underline transition"
+                      className="inline-flex items-center justify-center gap-1 text-[#F5D76E] font-semibold hover:underline transition"
                     >
                       {link.label} &rarr;
                     </a>
@@ -85,7 +85,7 @@ export default function OrderOptions() {
                   href={option.href}
                   target={option.href.startsWith("http") ? "_blank" : undefined}
                   rel={option.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                  className="inline-flex items-center gap-1 text-[#D4AF37] font-semibold hover:underline transition"
+                  className="inline-flex items-center gap-1 text-[#F5D76E] font-semibold hover:underline transition"
                 >
                   {option.cta} &rarr;
                 </a>

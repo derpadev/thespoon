@@ -27,7 +27,7 @@ export default function About() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.15 }}
         >
-          <p className="text-[#D4AF37] font-semibold tracking-widest uppercase text-sm mb-2">
+          <p className="text-[#F5D76E] font-semibold tracking-widest uppercase text-sm mb-2">
             Our Story
           </p>
           <h3 className="text-gray-700 text-4xl font-bold mb-6">About Us</h3>
@@ -45,15 +45,15 @@ export default function About() {
           </p>
           <div className="flex gap-8">
             <div>
-              <p className="text-3xl font-bold text-[#D4AF37]">30+</p>
+              <p className="text-3xl font-bold text-[#F5D76E]">30+</p>
               <p className="text-gray-500 text-sm">Unique Desserts</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-[#D4AF37]">100%</p>
+              <p className="text-3xl font-bold text-[#F5D76E]">100%</p>
               <p className="text-gray-500 text-sm">Handcrafted</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-[#D4AF37]">4.4★</p>
+              <p className="text-3xl font-bold text-[#F5D76E]">4.4★</p>
               <p className="text-gray-500 text-sm">Customer Love</p>
             </div>
           </div>

@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
 const menuCtaClassName =
-  "rounded-2xl bg-[#D4AF37] text-gray-900 font-bold text-base px-6 py-2.5 shadow-md " +
-  "hover:bg-[#c9a227] hover:shadow-lg hover:-translate-y-0.5 hover:scale-[1.03] " +
+  "rounded-2xl bg-[#F5D76E] text-gray-900 font-bold text-base px-6 py-2.5 shadow-md " +
+  "hover:bg-[#EBC95C] hover:shadow-lg hover:-translate-y-0.5 hover:scale-[1.03] " +
   "transition-all duration-200 ease-out";
 
 export default function Navbar() {
@@ -46,18 +46,18 @@ export default function Navbar() {
       <nav className="fixed w-full flex items-center justify-between px-8 py-4 z-30 transition-all duration-300 bg-white backdrop-blur-md shadow-sm">
         <Link to="/" className="text-2xl md:text-3xl font-bold tracking-widest uppercase">
           <span className="text-gray-800">The</span>{" "}
-          <span className="text-[#D4AF37]">Spoon</span>
+          <span className="text-[#F5D76E]">Spoon</span>
         </Link>
 
         {/* Desktop links */}
         <div className="space-x-6 hidden md:flex items-center">
-          <button onClick={() => scrollToSection("order")} className="text-gray-700 hover:text-[#D4AF37] transition">
+          <button onClick={() => scrollToSection("order")} className="text-gray-700 hover:text-[#F5D76E] transition">
             Order Now
           </button>
-          <button onClick={() => scrollToSection("about")} className="text-gray-700 hover:text-[#D4AF37] transition">
+          <button onClick={() => scrollToSection("about")} className="text-gray-700 hover:text-[#F5D76E] transition">
             About
           </button>
-          <button onClick={() => scrollToSection("contact")} className="text-gray-700 hover:text-[#D4AF37] transition">
+          <button onClick={() => scrollToSection("contact")} className="text-gray-700 hover:text-[#F5D76E] transition">
             Contact
           </button>
         </div>
@@ -81,19 +81,19 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="fixed inset-0 z-20 bg-black/90 flex flex-col items-center justify-center gap-8 md:hidden">
           <button
-            className="text-white text-2xl font-semibold hover:text-[#D4AF37] transition"
+            className="text-white text-2xl font-semibold hover:text-[#F5D76E] transition"
             onClick={() => scrollToSection("order")}
           >
             Order Now
           </button>
           <button
-            className="text-white text-2xl font-semibold hover:text-[#D4AF37] transition"
+            className="text-white text-2xl font-semibold hover:text-[#F5D76E] transition"
             onClick={() => scrollToSection("about")}
           >
             About
           </button>
           <button
-            className="text-white text-2xl font-semibold hover:text-[#D4AF37] transition"
+            className="text-white text-2xl font-semibold hover:text-[#F5D76E] transition"
             onClick={() => scrollToSection("contact")}
           >
             Contact

@@ -7,14 +7,14 @@ import { ArrowRight } from "lucide-react";
 
 // top row indices: 1, 2, 3
 // bottom row indices: 4, 5,  6
-const selectedIds = [16, 6, 12, 18, 8, 10];
+const selectedIds = [19, 7, 14, 21, 9, 11];
 const previewItems = selectedIds.map((id) => desserts.find((d) => d.id === id));
 
 export default function MenuPreview() {
   return (
     <section id="menu" className="px-8 py-16 bg-white">
       <div className="max-w-6xl mx-auto">
-        <p className="text-[#D4AF37] font-semibold tracking-widest uppercase text-sm text-center mb-2">
+        <p className="text-[#F5D76E] font-semibold tracking-widest uppercase text-sm text-center mb-2">
           What We Offer
         </p>
         <h3 className="text-gray-800 text-3xl md:text-4xl font-bold text-center mb-12">
@@ -39,7 +39,7 @@ export default function MenuPreview() {
                   <p className="text-gray-400 text-sm mb-3">
                     {getItemTypeLabel(dessert)}
                   </p>
-                  <span className="font-bold text-[#D4AF37] text-lg">{dessert.price}</span>
+                  <span className="font-bold text-[#F5D76E] text-lg">{dessert.price}</span>
                 </CardContent>
               </Card>
             </motion.div>
@@ -49,7 +49,7 @@ export default function MenuPreview() {
         <div className="text-center mt-12">
           <Link
             to="/menu"
-            className="inline-flex items-center gap-2 bg-[#D4AF37] text-black font-semibold px-8 py-3 rounded-2xl hover:bg-[#bfa134] transition"
+            className="inline-flex items-center gap-2 bg-[#F5D76E] text-black font-semibold px-8 py-3 rounded-2xl hover:bg-[#EBC95C] transition"
           >
             View Full Menu <ArrowRight size={18} />
           </Link>

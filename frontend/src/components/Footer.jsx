@@ -18,7 +18,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={label}
-              className="text-gray-500 hover:text-[#D4AF37] transition"
+              className="text-gray-500 hover:text-[#F5D76E] transition"
             >
               <Icon size={20} />
             </a>

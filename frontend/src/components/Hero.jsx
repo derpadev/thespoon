@@ -4,15 +4,16 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 // Add your dessert images here (stored in public/)
-const slides = [
-  "/whole-cakes/ube_cheesecake_big_cake.png",
-  "/whole-cakes/durian_mousse_big_cake.png",
-  "/whole-cakes/heart_shaped_big_cake.png",
-];
+// Temporarily showing only the fall promo — restore the slides below when ready.
+// const slides = [
+//   "/whole-cakes/ube_cheesecake_big_cake.png",
+//   "/whole-cakes/durian_mousse_big_cake.png",
+//   "/whole-cakes/heart_shaped_big_cake.png",
+// ];
+const slides = ["/fall.png"];
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
-  const isMothersDaySlide = slides[current] === "/mothersday.png";
 
   // auto-rotate every 10 seconds
   useEffect(() => {
@@ -30,9 +31,7 @@ export default function Hero() {
           index === current ? (
             <motion.div
               key={slide}
-              className={`absolute inset-0 ${
-                slide === "/mothersday.png" ? "bg-neutral-950" : ""
-              }`}
+              className="absolute inset-0"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -40,75 +39,65 @@ export default function Hero() {
             >
               <img
                 src={slide}
-                alt={slide === "/mothersday.png" ? "Mother's Day" : "Dessert"}
-                className={
-                  slide === "/mothersday.png"
-                    ? "absolute top-15 bottom-4 left-4 right-4 h-full w-full object-contain object-center sm:bottom-6 sm:left-6 sm:right-6"
-                    : "absolute inset-0 h-full w-full object-cover object-center"
-                }
+                alt="Dessert"
+                className="absolute inset-0 h-full w-full object-cover object-center"
                 decoding="async"
-                fetchPriority={slide === "/mothersday.png" ? "high" : "auto"}
               />
             </motion.div>
           ) : null,
         )}
       </AnimatePresence>
 
-      {/* Overlay for text readability — lighter on promo slide so artwork reads */}
-      <div
-        className={`absolute inset-0 transition-colors duration-500 ${
-          isMothersDaySlide ? "bg-black/30" : "bg-black/40"
-        }`}
+      {/* Black overlay */}
+      <div className="absolute inset-0 bg-black/40" />
+
+      {/* Heading — top center, below the fixed navbar */}
+      <div className="absolute top-44 sm:top-24 md:top-28 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center text-center whitespace-nowrap drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)]">
+        <h1 className="flex items-baseline gap-2 md:gap-4 leading-none">
+          <span className="font-pinyon font-normal text-6xl md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-orange-300 to-amber-400">
+            Fall
+          </span>
+          <span className="font-playfair font-bold uppercase text-4xl md:text-6xl tracking-[0.12em] text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-amber-400 to-orange-500">
+            Arrivals
+          </span>
+        </h1>
+        <span className="mt-2 md:mt-3 h-px w-40 md:w-64 bg-gradient-to-r from-transparent via-amber-300 to-transparent" />
+      </div>
+
+      {/* Logo — top left corner, below the fixed navbar */}
+      <img
+        src="/thespoon.png"
+        alt="The Spoon"
+        className="absolute top-20 left-6 md:top-24 md:left-10 z-10 h-24 md:h-36 w-auto object-contain"
       />
 
-      {/* Hero Text — hidden on Mother's Day slide so the promo art is unobstructed */}
-      <div className="relative z-10 flex h-full flex-col items-center justify-center text-white text-center px-6">
-        {!isMothersDaySlide && (
-          <>
-            <img
-              src="/thespoon.png"
-              alt="The Spoon"
-              className="h-80 md:h-[28rem] w-auto object-contain mb-4"
-            />
-            <p className="text-lg md:text-xl max-w-xl">
-              Contemporary desserts crafted in Stanton, California
-            </p>
-            <div className="mt-8 flex gap-4">
-              <Button
-                asChild
-                className="bg-[#FFF7E8] text-black px-6 py-3 rounded-md hover:bg-gray-200"
-              >
-                <Link to="/menu">View Menu</Link>
-              </Button>
-              <Button
-                className="bg-[#D4AF37] text-black px-6 py-3 rounded-md bg-[#D4AF37] hover:bg-[#bfa134]"
-                onClick={() => {
-                  const element = document.getElementById("contact");
-                  const yOffset = -80; // adjust based on navbar height
-                  const y =
-                    element.getBoundingClientRect().top +
-                    window.pageYOffset +
-                    yOffset;
-                  window.scrollTo({ top: y, behavior: "smooth" });
-                }}
-              >
-                Visit Us
-              </Button>
-            </div>
-
-            <div className="flex gap-2 mt-6">
-              {slides.map((_, i) => (
-                <span
-                  key={i}
-                  className={`h-3 w-3 rounded-full cursor-pointer transition ${
-                    i === current ? "bg-white" : "bg-white/50"
-                  }`}
-                  onClick={() => setCurrent(i)}
-                />
-              ))}
-            </div>
-          </>
-        )}
+      {/* Hero Text */}
+      <div className="relative z-10 flex h-full flex-col items-center justify-end pb-16 md:pb-20 text-white text-center px-6">
+        <p className="text-lg md:text-xl font-bold max-w-xl translate-y-[6px] drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]">
+          Contemporary desserts crafted in Stanton, California
+        </p>
+        <div className="mt-8 flex gap-4">
+          <Button
+            className="bg-[#F1F5F9] text-black h-auto px-10 py-4 md:px-12 md:py-5 text-lg md:text-xl font-bold rounded-full hover:bg-gray-200"
+            onClick={() => {
+              const element = document.getElementById("contact");
+              const yOffset = -80; // adjust based on navbar height
+              const y =
+                element.getBoundingClientRect().top +
+                window.pageYOffset +
+                yOffset;
+              window.scrollTo({ top: y, behavior: "smooth" });
+            }}
+          >
+            Visit Us
+          </Button>
+          <Button
+            asChild
+            className="bg-[#F5D76E] text-black h-auto px-10 py-4 md:px-12 md:py-5 text-lg md:text-xl font-bold rounded-full hover:bg-[#EBC95C]"
+          >
+            <Link to="/menu">Menu</Link>
+          </Button>
+        </div>
       </div>
     </section>
   );

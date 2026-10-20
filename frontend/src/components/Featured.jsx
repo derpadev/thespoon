@@ -4,7 +4,7 @@ export default function Featured() {
   return (
     <section id="featured" className="px-8 py-16 bg-white space-y-8 text-[#333333]">
       <div className="text-center mb-8">
-        <p className="text-[#D4AF37] font-semibold tracking-widest uppercase text-sm mb-2">
+        <p className="text-[#F5D76E] font-semibold tracking-widest uppercase text-sm mb-2">
           Coming Soon!
         </p>
         <h3 className="text-gray-800 text-3xl md:text-4xl font-bold">

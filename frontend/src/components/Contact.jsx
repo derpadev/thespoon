@@ -9,7 +9,7 @@ const socials = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="px-8 py-16 bg-[#FFF7E8]">
+    <section id="contact" className="px-8 py-16 bg-[#F1F5F9]">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-8">
         {/* Left side: Text and store info */}
         <div className="md:w-1/2 flex flex-col justify-center">
@@ -24,12 +24,20 @@ export default function Contact() {
             <p className="text-gray-700 text-lg">
               📍 11382 Beach Blvd #4, Stanton, CA 90680
             </p>
-            <a href="tel:+17146224842" className="flex items-center gap-2 text-gray-700 text-lg hover:text-[#D4AF37] transition">
+            <a href="tel:+17146224842" className="flex items-center gap-2 text-gray-700 text-lg hover:text-[#F5D76E] transition">
               <Phone size={18} /> (714) 622-4842
             </a>
-            <p className="text-gray-700 text-lg">
-              ⏰ Sun-Thu: 11am - 9pm | Fri-Sat: 11am - 10pm
-            </p>
+            <div className="text-gray-700 text-lg">
+              <p className="mb-1">⏰ Store Hours</p>
+              <ul className="space-y-1">
+                <li>Mon: 11am - 9pm</li>
+                <li>Tue: 11am - 9pm</li>
+                <li>Wed: 11am - 9pm</li>
+                <li>Thu: 11am - 9pm</li>
+                <li>Fri &amp; Sat: 11am - 10pm</li>
+                <li>Sun: 11am - 8pm</li>
+              </ul>
+            </div>
           </div>
 
           {/* Socials */}
@@ -41,7 +49,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={label}
-                className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 text-gray-700 hover:bg-[#D4AF37] hover:text-white transition"
+                className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 text-gray-700 hover:bg-[#F5D76E] hover:text-white transition"
               >
                 <Icon size={18} />
               </a>
@@ -53,7 +61,7 @@ export default function Contact() {
             href="https://www.instagram.com/thespoondessert/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-2xl bg-[#D4AF37] text-gray-700 px-6 py-3 font-semibold hover:bg-[#bfa134] transition w-fit"
+            className="inline-flex items-center gap-2 rounded-2xl bg-[#F5D76E] text-gray-700 px-6 py-3 font-semibold hover:bg-[#EBC95C] transition w-fit"
           >
             <Mail size={18} />
             Message Us on Instagram
