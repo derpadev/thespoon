@@ -110,6 +110,16 @@
     "description": "Creamy cheesecake infused with sweet ube for a silky, lightly nutty dessert with a signature purple glow."
   },
   {
+    "id": 82,
+    "name": "Ube Tiramisu",
+    "price": "$7",
+    "image": "/small-desserts/ube_tiramisu.png",
+    "categories": [
+      "Dessert"
+    ],
+    "description": ""
+  },
+  {
     "name": "Apple White Chocolate",
     "price": "$8",
     "image": "/small-desserts/apple_white_chocolate.png",

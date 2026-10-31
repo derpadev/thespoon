@@ -7,6 +7,13 @@ import { Sparkles } from "lucide-react";
 // and set `image` to that path when ready.
 const newItems = [
   {
+    id: 5,
+    name: "Ube Tiramisu",
+    description: "Creamy ube, classic tiramisu",
+    price: "$7",
+    image: "/small-desserts/ube_tiramisu.png",
+  },
+  {
     id: 1,
     name: "Pumpkin Cheesecake",
     description: "Light, sweet, pumpkin spiced",
@@ -33,7 +40,7 @@ const newItems = [
     description: "Refreshing pumpkin spice latte",
     price: "$6.5",
     image: "/small-desserts/pumpkin_spice_latte.png",
-  },
+  }
 ];
 
 export default function NewItems() {
